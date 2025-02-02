@@ -1,6 +1,7 @@
 # spring-data-rest-example
-Пример использования **Spring Data Rest** на **Kotlin**.
+Пример использования **Spring Data Rest** на **Kotlin**. В качестве СУБД в проекте подключена **H2**, которая не требуется установки и инициализируется при старте приложения. Но при необходимости вы можете легко поменять настройки подключения без правок в коде.
 
-Данный проект является приложением к статье [Spring Data Rest с примерами на kotlin](https://devmark.ru/article/spring-data-rest-kotlin).
-
-Ещё больше статей вы можете найти на моём сайте [devmark.ru](https://devmark.ru).
+### Полезные ссылки
+* [Spring Data Rest с примерами на kotlin](https://devmark.ru/article/spring-data-rest-kotlin).
+* [Новости проекта](https://t.me/+RjrPWNUEwf8wZTMy) и короткие заметки.
+* Ещё больше статей по разработке ПО вы можете найти на моём сайте [devmark.ru](https://devmark.ru/).
