@@ -1,8 +1,8 @@
 # Build stage
-FROM gradle:9.8.2-jdk25 AS build
+FROM eclipse-temurin:25-jdk-alpine AS build
 WORKDIR /app
 COPY . /app
-RUN gradle build --no-daemon
+RUN ./gradlew build --no-daemon
 
 # Package stage
 FROM eclipse-temurin:25-jre-alpine
